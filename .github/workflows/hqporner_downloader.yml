@@ -47,7 +47,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install hqporner_api rarfile requests
+          pip install hqporner_api rarfile requests httpx
           sudo apt-get update
           sudo apt-get install -y curl unrar rar ffmpeg 
         shell: bash
